@@ -1,13 +1,9 @@
-import Test from "./components/Test";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
-      <Test person="Victor" />
-      <Test person="Williams" />
-      <Test person="Micheal" />
-      <Test />
+      <Counter />
     </div>
   );
 }
